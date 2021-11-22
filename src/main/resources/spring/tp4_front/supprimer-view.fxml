@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spring.tp4_front.SupprimerController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="17.0" prefHeight="57.0" prefWidth="200.0" text="Supprimer une personne" textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="51.0" layoutY="129.0" prefHeight="17.0" prefWidth="22.0" text="id :" />
+      <TextField fx:id="suppressionField" layoutX="73.0" layoutY="124.0" prefHeight="26.0" prefWidth="157.0" />
+      <Button layoutX="239.0" layoutY="125.0" mnemonicParsing="false" onAction="#supprimer" prefHeight="23.0" prefWidth="81.0" text="Supprimer">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="10.0" layoutY="261.0" mnemonicParsing="false" onAction="#switchSceneRetour" prefHeight="29.0" prefWidth="60.0" text="Retour" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
